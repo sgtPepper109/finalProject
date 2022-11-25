@@ -1,6 +1,15 @@
-To get started, create an anaconda environment without defining python version
+# Roads Extraction from Satellite Images using Deep Learning
+-------------------------------------------------------------
+[![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.python.org%2Fcommunity%2Flogos%2F&psig=AOvVaw1cDN5tIzt8c-9dB5NgkFAT&ust=1669480217237000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOigv8zgyfsCFQAAAAAdAAAAABAH)](https://www.python.org/downloads/release/python-3913/)
+
+
+## Dataset:
+Download the dataset from https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset \
+and place the images data in the parent directory inside a folder named 'data'
+
+To get started, create an anaconda environment with python version 3.9.13
 ```python
-conda create --name name_of_your_environment
+conda create --name name_of_your_environment python=3.9.13
 ```
 then activate the environment
 ```python
@@ -9,7 +18,7 @@ conda activate name_of_your_environment
 
 Install the required libraries to run the project
 ```python
-pip install -r /path/to/pythonProject/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### To run the project, do any one of the following options
