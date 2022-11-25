@@ -1,6 +1,6 @@
 # Roads Extraction from Satellite Images using Deep Learning
 -------------------------------------------------------------
-## Dataset:
+> ## Dataset:
 Download the dataset from https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset \
 and place the images data in the parent directory inside a folder named 'data'
 
@@ -18,7 +18,7 @@ Install the required libraries to run the project
 pip install -r requirements.txt
 ```
 
-### To run the project, do any one of the following options
+> ### To run the project, do any one of the following options
 1) run main.py with the proper environment
 ```python
 /path/to/$CONDAENV/python.exe main.py
@@ -30,7 +30,7 @@ jupyter-notebook # in command line
 ```
 open the Untitled1.ipynb file and select Cell: Run All
 
-Code Description:
+> Code Description:
 -----------------
 
 Number of total images in the dataset: 6226
@@ -51,7 +51,7 @@ then import the splitfolders library:
 import splitfolders
 ```
 
-#### Splitfolders folder structure:
+> #### Splitfolders folder structure:
 pythonProject/divided_data/\
 ├───test\
 │   ├───images\
