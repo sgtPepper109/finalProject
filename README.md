@@ -28,7 +28,8 @@ Download and install anaconda-navigator in your machine then to open, run
 ```python
 jupyter-notebook # in command line
 ```
-open the Untitled1.ipynb file and select Cell: Run All
+open the Untitled1.ipynb file and select Cell: Run All \
+&nbsp;
 
 > ## Code Description:
 -----------------
