@@ -17,7 +17,7 @@ Install the required libraries to run the project
 ```python
 pip install -r requirements.txt
 ```
-\
+&nbsp;
 > ### To run the project, do any one of the following options
 1) run main.py with the proper environment
 ```python
