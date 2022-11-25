@@ -18,7 +18,7 @@ Install the required libraries to run the project
 pip install -r requirements.txt
 ```
 &nbsp;
-> ### To run the project, do any one of the following options
+> ## To run the project, do any one of the following options
 1) run main.py with the proper environment
 ```python
 /path/to/$CONDAENV/python.exe main.py
@@ -30,7 +30,7 @@ jupyter-notebook # in command line
 ```
 open the Untitled1.ipynb file and select Cell: Run All
 
-> Code Description:
+> ## Code Description:
 -----------------
 
 Number of total images in the dataset: 6226
