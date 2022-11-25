@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+.idea
+__pycache__
+data
+divided_data
+saved.hdf5
