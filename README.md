@@ -1,8 +1,5 @@
 # Roads Extraction from Satellite Images using Deep Learning
 -------------------------------------------------------------
-
-
-
 ## Dataset:
 Download the dataset from https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset \
 and place the images data in the parent directory inside a folder named 'data'
