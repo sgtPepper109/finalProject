@@ -1,6 +1,6 @@
 # Roads Extraction from Satellite Images using Deep Learning
 -------------------------------------------------------------
-[![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.python.org%2Fcommunity%2Flogos%2F&psig=AOvVaw1cDN5tIzt8c-9dB5NgkFAT&ust=1669480217237000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOigv8zgyfsCFQAAAAAdAAAAABAH)](https://www.python.org/downloads/release/python-3913/)
+
 
 
 ## Dataset:
