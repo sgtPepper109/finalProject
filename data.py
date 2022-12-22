@@ -90,6 +90,12 @@ copyAllImages(test_path + 'masks/', os.path.join(output_folder, 'test_masks/test
 copyAllImages(val_path + 'images/', os.path.join(output_folder, 'val_images/val/'))
 copyAllImages(val_path + 'masks/', os.path.join(output_folder, 'val_masks/val/'))
 
+# remove redundant directories
+print('Removing redundant directories')
+shutil.rmtree(os.path.join(output_folder, 'train/'))
+shutil.rmtree(os.path.join(output_folder, 'test/'))
+shutil.rmtree(os.path.join(output_folder, 'val/'))
+
 # test whether the images and masks match
 train_img_dir = os.path.join(output_folder, 'train_images/train/')
 train_mask_dir = os.path.join(output_folder, 'train_masks/train/')
