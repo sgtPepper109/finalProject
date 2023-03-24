@@ -113,5 +113,5 @@ then the model is saved to an hdf5 file for further use by not re-training the m
 then the graphs concerning training and validation accuracy are plot together\
 and for testing various testing images are plot and their predicted masks are plot
 
-Later the Mean IoU is calculated
-![image][files://C:/Users/Acer/finalProject/output.png]
+Later the Mean IoU is calculated\
+![image][/output.png]
