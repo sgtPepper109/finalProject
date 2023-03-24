@@ -114,4 +114,5 @@ then the graphs concerning training and validation accuracy are plot together\
 and for testing various testing images are plot and their predicted masks are plot
 
 Later the Mean IoU is calculated\
-    ![image][/output.png]
+
+![image](/output.png)  
