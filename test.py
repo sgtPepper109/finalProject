@@ -33,11 +33,11 @@ print("Mean IOU = ", IOU_keras.result().numpy())
 for i in range(11):
 	test_img_number = random.randint(0, len(test_image_batch)-1)
 	test_img = test_image_batch[test_img_number]
-	ground_truth=test_mask_batch[test_img_number]
+	ground_truth = test_mask_batch[test_img_number]
 	ground_truth = np.argmax(ground_truth, axis=2)
 	test_img_norm = test_img[:,:,0][:,:,None]
 
-	test_img_input=np.expand_dims(test_img_norm, 0)
+	test_img_input = np.expand_dims(test_img_norm, 0)
 	prediction = (model.predict(test_img_input))
 	predicted_img = np.argmax(prediction, axis=3)[0,:,:]
 

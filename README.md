@@ -2,7 +2,7 @@
 -------------------------------------------------------------
 > ## Dataset:
 Download the dataset from https://www.kaggle.com/datasets/balraj98/deepglobe-road-extraction-dataset \
-and place the images data in the parent directory inside a folder named 'data'
+and place the images data in the parent directory and inside a folder named 'data'
 
 To get started, create an anaconda environment with python version 3.9.13
 ```python
@@ -24,8 +24,9 @@ pip install -r requirements.txt
 /path/to/$CONDAENV/python.exe main.py
 ```
 2) run Untitled1.ipynb in jupyter-notebook\
-Download and install anaconda-navigator in your machine then to open, run
+
 ```python
+pip install jupyter
 jupyter-notebook # in command line
 ```
 open the Untitled1.ipynb file and select Cell: Run All \
@@ -41,7 +42,7 @@ The decided ratio to divide the dataset into training, testing and ratio is:
 0.7 : 0.15 : 0.15
 
 To divide the images dataset into 3 sections of training, testing and validation,
-use of the split-folders library is suggested.
+use of the `split-folders` library is suggested.
 
 Install the split-folders in your conda environment:
 ```python
@@ -93,23 +94,23 @@ horizontally or vertically
 Images and masks color mode is kept grayscale
 and are resized to (128, 128)
 
-for preprocessing part,
+For preprocessing part,
 images are scaled down to 1
 and as masks have only two values i.e roads(0) and non-roads(255),
 we label encode them to 0 and 1 respectively by initially reshaping the 2D masks to 1D array
 and again reshaping back to original 2D dimensions
 
-then masks are converted to categorical form
+Then masks are converted to categorical form
 
-then the architecture of u-net is defined
+Then the architecture of u-net is define
 steps per epoch is defined as number of training images / batch size
 and validation steps per epoch is defined as number of validation images / batch size
 
-optimizer used is 'adam', loss function: 'binary_crossentropy', and metrics used is 'accuracy'
+Optimizer used is 'adam', loss function: 'binary_crossentropy', and metrics used is 'accuracy'
 
-number of epochs: 25
+Number of epochs: 25
 
-then the model is saved to an hdf5 file for further use by not re-training the model again\
+Then the model is saved to an hdf5 file for further use by not re-training the model again\
 then the graphs concerning training and validation accuracy are plot together\
 and for testing various testing images are plot and their predicted masks are plot
 
